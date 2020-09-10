@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_name"
+        android:hint="name"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:background="@android:color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_mobile"
+        android:hint="mobile_no"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="email"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_website"
+        android:hint="website"
+        android:padding="10dp"
+        android:inputType="textUri"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_password"
+        android:hint="password"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_confirm_password"
+        android:hint="confirm_password"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"/>
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Basic terms and condition for voting"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_sumbit"
+        android:text="submit"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white"
+        />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">validationform</string>
+    <string name="invaild_name">please enter valid name</string>
+    <string name="invalid_mobile_no">please enter valid mobile number</string>
+    <string name="invalid_email">please enter the valid email address</string>
+    <string name="invaild_website">please enter valid website url</string>
+    <string name="invaild_password">enter six digit password</string>
+    <string name="invaild_confirmpassword">password does not match</string>
+    <string name="invalid_check">click this</string>
+</resources>
